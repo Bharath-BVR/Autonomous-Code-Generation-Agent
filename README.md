@@ -140,7 +140,7 @@ autonomous-code-agent/
 ### Step 1: Clone repository
 
 ```
-git clone <repository_url>
+git clone git clone https://github.com/Bharath-BVR/Autonomous-Code-Generation-Agent.git
 cd autonomous-code-agent
 ```
 
@@ -290,3 +290,28 @@ Using GitHub as knowledge base:
 - improves accuracy
 
 ---
+
+## Author
+
+Bharath BVR
+bharathvr2025@gmail.com
+GitHub: https://github.com/Bharath-BVR
+
+---
+
+## Acknowledgements
+
+This project uses the following open-source tools:
+
+- Ollama for LLM inference
+- Sentence Transformers for embeddings
+- FAISS for vector similarity search
+- Streamlit for UI
+- GitHub API for knowledge retrieval
+- Piston API for online code execution
+
+---
+
+## Support
+
+If you found this project helpful, consider giving a star on GitHub.
