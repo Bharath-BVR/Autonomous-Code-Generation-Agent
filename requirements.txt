@@ -1,0 +1,10 @@
+langchain
+faiss-cpu
+sentence-transformers
+requests
+streamlit
+ollama
+ragas
+pandas
+numpy
+python-dotenv
