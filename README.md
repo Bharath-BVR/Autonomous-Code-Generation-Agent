@@ -125,13 +125,13 @@ autonomous-code-agent/
 
 | Component | Technology |
 |----------|------------|
-| LLM -> Ollama |
-| Embeddings -> sentence-transformers |
-| Vector Database -> FAISS |
-| Knowledge Source -> GitHub API |
-| Code Execution -> Piston API |
-| UI -> Streamlit |
-| Language -> Python |
+| LLM | Ollama |
+| Embeddings | sentence-transformers |
+| Vector Database | FAISS |
+| Knowledge Source | GitHub API |
+| Code Execution | Piston API |
+| UI | Streamlit |
+| Language | Python |
 
 ---
 
@@ -236,12 +236,12 @@ Model performance is evaluated using defined metrics.
 
 | Metric | Description |
 |-------|-------------|
-| compilation_success -> code executes without error |
-| code_generated -> model produces valid code |
-| relevance_score -> generated code matches query |
-| hallucination_score -> detects unrelated content |
-| github_grounding ->| verifies GitHub knowledge usage |
-| final_score -> overall accuracy |
+| compilation_success | code executes without error |
+| code_generated | model produces valid code |
+| relevance_score | generated code matches query |
+| hallucination_score | detects unrelated content |
+| github_grounding | verifies GitHub knowledge usage |
+| final_score | overall accuracy |
 
 Final score formula:
 
